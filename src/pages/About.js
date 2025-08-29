@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import founderImage from "../assets/founder.jpg";
 import aboutImage from "../assets/about-shells.jpeg";
 

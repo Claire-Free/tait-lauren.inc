@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 /******************* IMAGE PLACEHOLDERS ************************/
 const IMAGES = {
-  heroVideo: "/hero.mp4", // hero background video
+  heroVideo: "/assets/hero.mp4",
   beliefLeft: "/assets/top1.jpeg",
   beliefRight: "/assets/top2.jpg",
   extra: "/assets/top3.jpg",
@@ -40,6 +40,8 @@ export default function CoastalHome() {
           playsInline
           className="absolute inset-0 h-full w-full object-cover"
         />
+          {/* Video background */}
+
         <div className="absolute inset-0 bg-black/20 pointer-events-none" />
 
         {/* Side Nav (desktop only) */}
